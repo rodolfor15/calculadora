@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+.calculadora{
+    align-items: center;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 30%;
+    width: 420px; 
+}
+
+.tela{
+    font-size: 1.5rem;
+    font-weight: 900;
+    height: 8vh;
+    margin: 8% 1.5%;
+    padding: 3%;
+    width: 90%;
+}
+
+.linha1, .linha2, .linha3, .linha4 {
+    display: flex;
+    font-size: 25px;
+    font-weight: 700;
+    height: 40px;
+    justify-content: center;
+    margin-left: 1%;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 22%;
+}
