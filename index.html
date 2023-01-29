@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+<form name="calculator" class="calculadora">
+  <input type="text" name="answer" readonly class="tela">
+  <br>
+  <input type="button" value="1" onclick="setNum(1)" class="linha1">
+  <input type="button" value="2" onclick="setNum(2)" class="linha1">
+  <input type="button" value="3" onclick="setNum(3)" class="linha1">
+  <input type="button" value="+" onclick="setOperator('+')" class="linha1">
+  <br>
+  <input type="button" value="4" onclick="setNum(4)" class="linha2">
+  <input type="button" value="5" onclick="setNum(5)" class="linha2">
+  <input type="button" value="6" onclick="setNum(6)" class="linha2">
+  <input type="button" value="-" onclick="setOperator('-')" class="linha2">
+  <br>
+  <input type="button" value="7" onclick="setNum(7)" class="linha3">
+  <input type="button" value="8" onclick="setNum(8)" class="linha3">
+  <input type="button" value="9" onclick="setNum(9)" class="linha3">
+  <input type="button" value="*" onclick="setOperator('*')" class="linha3">
+  <br>
+  <input type="button" value="C" onclick="clearScreen()" class="linha4">
+  <input type="button" value="0" onclick="setNum(0)" class="linha4">
+  <input type="button" value="=" onclick="calculate()" class="linha4">
+  <input type="button" value="/" onclick="setOperator('/')" class="linha4">
+</form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
